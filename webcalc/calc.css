@@ -1,0 +1,66 @@
+@charset "utf-8";
+/*全体*/
+.wrapper{
+  max-width: 350px;
+  margin: 0 auto;
+  color: #666;
+}
+#header,#calc{
+  box-sizing: border-box;
+  text-align: center;
+}
+/*ヘッダー*/
+#header {
+  font-size: 24px;
+  padding: 1rem;
+}
+/*テキスト*/
+input{
+  box-sizing: border-box;
+  width: 240px;
+  height: 60px;
+  font-size: 1.6rem;
+  text-align: right;
+  padding: 0 0.75rem;
+}
+/*ボタン関係*/
+button{
+  font-size: 18px;
+  width: 75px;
+  height: 75px;
+  color: #333;
+  vertical-align: middle;
+  border-color: #fff;
+  border-radius: 100%;
+  font-size: 200%;
+}
+button.kakko{
+    font-size: 18px;
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    vertical-align: middle;
+    background-color: black;
+    border-color: #fff;
+  }
+  button.rand{
+    font-size: 18px;
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    vertical-align: middle;
+    background-color: #333;
+    border-color: #fff;
+  }
+  button.ope{
+    background-color: red;
+    color:#fff;
+  }
+  button.equal{
+    background-color: blue;
+    color:#fff;
+  }
+button:hover{
+  background-color: #666;
+  color:#fff;
+}
